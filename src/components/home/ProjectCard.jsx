@@ -121,7 +121,7 @@ const CardFooter = ({ star_count, repo_url, pushed_at }) => {
   }, [handleUpdatetime]);
 
   return (
-    <p className="card-text">
+    <p className="card-text">haha Dylan is here
       <a
         href={repo_url + "/stargazers"}
         target=" _blank"
