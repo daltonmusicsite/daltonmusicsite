@@ -2,7 +2,10 @@ import React, { useState, useEffect, useCallback } from "react";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Row from "react-bootstrap/Row";
-import ProjectCard from "./ProjectCard";
+import ReactPlayer from "react-player";
+//import styledComponents from "styled-components";
+//import ProjectCard from "./ProjectCard";
+
 // import axios from "axios";
 
 // const dummyProject = {
@@ -59,25 +62,19 @@ const Project = ({ heading, username, length, specfic }) => {
       <Container className="">
         <h2 className="display-4 pb-5 text-center">{heading}</h2>
         <Row>
+          {/* <div class="col-sm">
+            <ReactPlayer url="https://soundcloud.com/glennmorrison/beethoven-moonlight-sonata" />
+            <ReactPlayer url="https://soundcloud.com/glennmorrison/beethoven-moonlight-sonata" />
+          </div>
+          <div class="col-sm">
+            <ReactPlayer url="https://soundcloud.com/glennmorrison/beethoven-moonlight-sonata" />
+            <ReactPlayer url="https://soundcloud.com/glennmorrison/beethoven-moonlight-sonata" />
+          </div> */}
 
-          {/* {projectsArray.length
-            ? projectsArray.map((project, index) => ( */}
-                {/* <ProjectCard
-                  // key={`project-card-${index}`}
-                  // id={`project-card-${index}`}
-                  // value={project}
-                /> */}
-                <div>hello dylan</div>
-              {/* )) */}
-            {/* : dummyProjectsArr.map((project, index) => ( */}
-                {/* <ProjectCard
-                  // key={`dummy-${index}`}
-                  // id={`dummy-${index}`}
-                  // value={project}
-                /> */}
-                <div>hello</div>
-              {/* )) */}
-              {/* } */}
+          <div class="col"><ReactPlayer height="200px" width="500px" url="https://soundcloud.com/dalton-smith-757205806/pipes-and-spikes-1" /></div>
+          <div class="col"><ReactPlayer height="200px" width="500px"  url="https://soundcloud.com/dalton-smith-757205806/hallowed-halls" /></div>
+          <div class="col"><ReactPlayer height="200px" width="500px" url="https://soundcloud.com/dalton-smith-757205806/little-city-1" /></div>
+          <div class="col"><ReactPlayer height="200px" width="500px"  url="https://soundcloud.com/dalton-smith-757205806/for-ivan" /></div>
         </Row>
       </Container>
     </Jumbotron>
