@@ -51,7 +51,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/daltonsmith.png"),
+  imageLink: require("../editable-stuff/dalton.png"),
   imageSize: 375,
   message:
     "My name is Dalton Smith. I graduated in 2022 from Brigham Young University with an undergraduate degree in Chemical Engineering. Currently, I am a medical school student at (Fancey Medical School here). I'm most passionate about composing music, and my goal is to pursue this passion to become a world class composer. In my free time I like composing music for video games.",
