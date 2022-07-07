@@ -12,10 +12,10 @@ const Project = ({ heading, username, length, specfic }) => {
       <Container className="">
         <h2 className="display-4 pb-5 text-center">{heading}</h2>
         <Row>
-          <div class="col"><ReactPlayer height="200px" width="400px" url="https://soundcloud.com/dalton-smith-757205806/pipes-and-spikes-1" /></div>
-          <div class="col"><ReactPlayer height="200px" width="400px"  url="https://soundcloud.com/dalton-smith-757205806/hallowed-halls" /></div>
-          <div class="col"><ReactPlayer height="200px" width="400px" url="https://soundcloud.com/dalton-smith-757205806/little-city-1" /></div>
-          <div class="col"><ReactPlayer height="200px" width="400px"  url="https://soundcloud.com/dalton-smith-757205806/for-ivan" /></div>
+          <div class="col"><ReactPlayer height="200px" width="375px" url="https://soundcloud.com/dalton-smith-757205806/pipes-and-spikes-1" /></div>
+          <div class="col"><ReactPlayer height="200px" width="375px"  url="https://soundcloud.com/dalton-smith-757205806/hallowed-halls" /></div>
+          <div class="col"><ReactPlayer height="200px" width="375px" url="https://soundcloud.com/dalton-smith-757205806/little-city-1" /></div>
+          <div class="col"><ReactPlayer height="200px" width="375px"  url="https://soundcloud.com/dalton-smith-757205806/for-ivan" /></div>
         </Row>
       </Container>
     </Jumbotron>

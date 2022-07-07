@@ -23,10 +23,10 @@ const mainBody = {
       image: "fa-youtube",
       url: "https://www.youtube.com/",
     },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/",
-    },
+    // {
+    //   image: "fa-facebook",
+    //   url: "https://www.facebook.com/",
+    // },
     {
       image: "fa-instagram",
       url: "https://www.instagram.com/",
