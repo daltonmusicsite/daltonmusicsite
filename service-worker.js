@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/daltonmusicsite/precache-manifest.bc3c7b224b0509870c45cf4804984f49.js"
+  "/daltonmusicsite/precache-manifest.badc85d4309746e33c76f851f09f6e4a.js"
 );
 
 self.addEventListener('message', (event) => {
