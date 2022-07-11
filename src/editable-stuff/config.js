@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/dalton.png"),
   imageSize: 375,
   message:
-    "My name is Dalton Smith. I graduated in 2022 from Brigham Young University with an undergraduate degree in Chemical Engineering. Currently, I am attending medical school. I'm most passionate about composing music, and my goal is to pursue this passion to become a world class composer. In my free time I like composing music for video games.",
+    "My name is Dalton Smith. I graduated in 2020 from Brigham Young University with an undergraduate degree in BioChemistry. Currently, I am attending medical school. I'm most passionate about composing music, and my goal is to pursue this passion to become a world class composer. In my free time I like composing music for video games.",
   resume: "", //google doc link goes here
 };
 
